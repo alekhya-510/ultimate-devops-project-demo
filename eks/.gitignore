@@ -54,14 +54,3 @@ test/tracetesting/tracetesting-vars.yaml
 *.apk
 
 !src/currency/build
-# Terraform
-**/.terraform/*
-*.tfstate
-*.tfstate.*
-.terraform.lock.hcl
-crash.log
-*.tfvars
-**/.terraform/*
-*.tfstate
-*.tfstate.*
-.terraform.lock.hcl
