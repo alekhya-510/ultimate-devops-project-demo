@@ -22,7 +22,7 @@ jobs:
               run: |
                 cd src/product-catalog
                 go mod download
-                go build -o main.go
+                go build -o product-catalog-service main.go
             - name: run tests
               run: |
                 cd src/product-catalog
