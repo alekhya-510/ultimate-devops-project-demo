@@ -84,6 +84,6 @@ jobs:
               run: |
                 git config --global user.name ${{ github.actor }}
                 git config --global user.email "alekhyakandregula@gmail.com"
-                git add kubernetes/product-catalog/deploy.yaml
+                git add kubernetes/productcatalog/deploy.yaml
                 git commit -m "Update image tag to ${{ github.run_id }}"
                 git push
