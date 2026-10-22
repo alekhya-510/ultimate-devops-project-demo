@@ -2,6 +2,11 @@ FROM golang:1.22-alpine AS builder
 
 WORKDIR /usr/src/app
 
+RUN --mount=type=cache,target=/go/pkg/mod \
+    --mount=type=cache,target=/root/.cache/go-build \
+    mkdir -p /root/.cache/go-build
+COPY go.mod go.sum ./
+    
 COPY . .
 
 RUN go mod download 
@@ -16,6 +21,8 @@ COPY ./products ./products
 
 COPY --from=builder /go/bin/product-catalog ./
 
-EXPOSE ${PRODUCT_CATALOG_PORT}
+
+ENV PRODUCT_CATALOG_PORT=8088
 
 ENTRYPOINT ["./product-catalog"]
+
