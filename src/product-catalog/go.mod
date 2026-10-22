@@ -27,9 +27,6 @@ require (
 )
 
 require (
-	buf.build/gen/go/open-feature/flagd/connectrpc/go v1.17.0-20240906125204-a6a901b42e8.1 // indirect
-	buf.build/gen/go/open-feature/flagd/grpc/go v1.5.1-20240906125204-a6a901b42e8.1 // indirect
-	buf.build/gen/go/open-feature/flagd/protocolbuffers/go v1.35.1-20240906125204-a6a901b42e8.1 // indirect
 	connectrpc.com/connect v1.17.0 // indirect
 	connectrpc.com/otelconnect v0.7.1 // indirect
 	github.com/barkimedes/go-deepcopy v1.0.0 // indirect
@@ -44,7 +41,7 @@ require (
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.25.1 // indirect
-	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
+	github.com/hashicorp/golang-lru/v2 v0.0.0-20240529114926-4d9779d... // indirect
 	github.com/json-iterator/go v1.12.0 // indirect
 	github.com/klauspost/cpu v1.0.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
@@ -55,7 +52,7 @@ require (
 	github.com/twmb/murmur3 v1.1.8 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
-	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
+	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-b5ef... // indirect
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
 	github.com/zeebo/xxh3 v1.0.2 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
